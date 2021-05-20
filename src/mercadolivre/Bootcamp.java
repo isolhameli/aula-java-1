@@ -36,23 +36,22 @@ public class Bootcamp {
 
     public static void exercicio1() {
         System.out.println("Exercicio 1\n");
-        int limite;
+        int limit;
         System.out.println("Digite um numero limite\n");
-        limite = scanner.nextInt();
-        if (limite < 0) {
+        limit = scanner.nextInt();
+        if (limit < 0) {
             System.out.println("O numero deve ser positivo");
             return;
         }
 
-        for (int i = 0; i < limite; i++) {
+        for (int i = 0; i < limit; i++) {
             System.out.println(i * 2);
         }
     }
 
     public static void exercicio2() {
         System.out.println("Exercicio 2\n");
-        int n;
-        int m;
+        int n, m;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite um valor para n\n");
         n = scanner.nextInt();
@@ -118,9 +117,7 @@ public class Bootcamp {
 
     public static void exercicio5() {
         System.out.println("Exercicio 2\n");
-        int n;
-        int m;
-        int d;
+        int n, m, d;
         int found = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite um valor para n\n");
